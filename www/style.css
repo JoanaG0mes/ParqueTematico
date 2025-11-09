@@ -1,0 +1,23 @@
+body {
+    background: #f6f8fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  h1 {
+    color: #2c3e50;
+  }
+  form {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #ccc;
+  }
+  input, select {
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+  }
+  

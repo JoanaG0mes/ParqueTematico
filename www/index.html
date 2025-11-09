@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Visitante</title>
+<style>
+/* Seu estilo aqui */
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Cadastro de Visitante</h1>
+<form action="/cgi-bin/cadastro.cgi" method="post">
+  <label>Nome:</label>
+  <input type="text" name="nome" required>
+
+  <label>CPF:</label>
+  <input type="text" name="cpf" required>
+
+  <label>Tipo:</label>
+  <input type="text" name="tipo" required>
+
+  <input type="submit" value="Cadastrar">
+</form>
+</div>
+</body>
+</html>

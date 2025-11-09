@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Remover Visitante</title>
+  <link rel="stylesheet" href="/parque/style.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>Remover Visitante</h1>
+    <p>Digite o CPF do visitante que deseja remover.</p>
+
+    <form action="/cgi-bin/remover.cgi" method="post">
+      <label>CPF:</label>
+      <input type="text" name="cpf" required>
+
+      <input type="submit" value="Remover Visitante">
+    </form>
+
+    <hr>
+    <p>
+      <a href="/parque/cadastro.html">Ir para Cadastro</a> | 
+      <a href="/cgi-bin/painel.cgi">Ver Painel</a>
+    </p>
+  </div>
+</body>
+</html>

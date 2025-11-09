@@ -1,0 +1,10 @@
+# Arquivos de backup do editor
+*~
+*.swp
+
+# O arquivo main.cpp que apareceu no seu 'ls'
+# (Remova esta linha se quiser salvar ele)
+main.cpp
+
+# A pasta do banco de dados (o .txt não deve ir para o Git)
+database/
